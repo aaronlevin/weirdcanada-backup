@@ -1,0 +1,1 @@
+SELECT `ID`, `post_date_gmt`, `post_name`, `post_title`, `post_content` FROM `wp_posts` WHERE `post_type` = 'post' AND `post_status` = 'publish' AND `guid` LIKE 'http://weirdcanada.com%' ORDER BY `ID` ASC;
