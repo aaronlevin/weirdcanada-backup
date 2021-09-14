@@ -1,0 +1,10 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.article, .widget {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.gallery-item img {
+    border: 0 !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->
